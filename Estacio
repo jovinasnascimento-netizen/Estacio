@@ -6,11 +6,11 @@ int main() {
     scanf("%d", &idade);
     
     if(idade >= 18 ){
-        printf("Maior Idade");
+        printf("Liberado entrar");
     }
-    else if (idade>= 16){
+    else if (idade>= 11){
     
-        printf("Menor Idade");
+        printf("Proibido entrar");
     }
 else{
     printf ("não entra");
