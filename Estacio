@@ -4,7 +4,49 @@ int main() {
     
     printf("Qual o número ");
     scanf("%d", &idade);
-    
+    29 float valor:
+
+30
+
+C
+
+31
+
+32
+
+printf("Qual o valor da compra"):
+
+scanf("%f", &valor)
+
+C
+
+33
+
+34 if (valor 100
+
+35
+
+printf("Possui desconto")
+
+36
+
+}
+
+37-
+
+else {
+
+TS
+
+38
+
+printf ("han possui desconto")
+
+39
+
+40
+
+41
     if(idade >= 18 ){
         printf("Liberado entrar");
     }
@@ -44,4 +86,27 @@ else {
 return 0 ;
 
 
+}
+
+Lista 3
+
+#include <stdio.h>
+
+int main() {
+    
+    int nota;
+
+    printf("Digite a sua nota ");
+    scanf("%d", &nota);
+    
+    if(nota >= 7 ){
+        printf("Aprovado");
+    }
+    
+   else if(nota >= 5 ){
+        printf("Recuperação");
+    }
+    
+
+    return 0;
 }
