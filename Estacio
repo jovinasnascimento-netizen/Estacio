@@ -88,7 +88,8 @@ return 0 ;
 
 }
 
-Lista 3
+Lis(ta 3
+
 
 #include <stdio.h>
 
@@ -106,7 +107,9 @@ int main() {
    else if(nota >= 5 ){
         printf("Recuperação");
     }
-    
+    else{
+        printf("Reprovado");
+    }
 
     return 0;
 }
