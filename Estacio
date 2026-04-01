@@ -1,52 +1,5 @@
-#include <stdio.h>
-int main() {
-    int idade;
-    
-    printf("Qual o número ");
-    scanf("%d", &idade);
-    29 float valor:
+Lista 1
 
-30
-
-C
-
-31
-
-32
-
-printf("Qual o valor da compra"):
-
-scanf("%f", &valor)
-
-C
-
-33
-
-34 if (valor 100
-
-35
-
-printf("Possui desconto")
-
-36
-
-}
-
-37-
-
-else {
-
-TS
-
-38
-
-printf ("han possui desconto")
-
-39
-
-40
-
-41
     if(idade >= 18 ){
         printf("Liberado entrar");
     }
@@ -88,7 +41,7 @@ return 0 ;
 
 }
 
-Lis(ta 3
+Lista 3
 
 
 #include <stdio.h>
