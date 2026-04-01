@@ -25,6 +25,8 @@ else{
     return 0;
 }
 
+Lista 2
+
 #include <stdio.h>
 int main (){
     
