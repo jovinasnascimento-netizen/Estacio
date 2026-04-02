@@ -66,3 +66,28 @@ int main() {
 
     return 0;
 }
+
+Lista 4 
+
+#include <stdio.h>
+
+int main() {
+    
+    int categorias;
+
+    printf("Digite a sua nota ");
+    scanf("%d", &categorias);
+    
+    if(categorias <= 10 ){
+        printf("Conceito A");
+    }
+    
+   else if(categorias <= 20 ){
+        printf("Conceito B");
+    }
+    
+    else if(categorias <= 30 ){
+        printf("Conceito C");
+    }
+    return 0;
+    }
