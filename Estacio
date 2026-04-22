@@ -279,7 +279,46 @@ int main() {
 #include <stdio.h>
 
 int main() {
-    int codigoValido, jaUsouCupom;
+    int codigoValido, jaUsouCupom;#include <stdio.h>
+
+int main() {
+    float consumo;
+    int horarioPico, energiaSolar;
+
+    printf("Digite o consumo atual: ");
+    scanf("%f", &consumo);
+
+    printf("Horario de pico? (1/0): ");
+    scanf("%d", &horarioPico);
+
+    printf("Possui energia solar? (1/0): ");
+    scanf("%d", &energiaSolar);
+
+    if(horarioPico == 1){
+        if (consumo > 300 && energiaSolar == 0){
+            printf("Alerta de alto consumo");
+        }
+        else{
+            printf("Consumo controlado");
+        }
+    }
+    
+    else if(horarioPico == 0){
+        if (consumo > 500){
+            printf("Alerta de consumo");
+        }
+        else{
+            printf("Consumo normal");
+        }
+    }
+    else{
+        printf("Não existe");
+    }
+
+    return 0;
+}
+
+
     float valorCompra;
 
     printf("Codigo valido? (1/0): ");
@@ -299,11 +338,92 @@ int main() {
             printf("CUPOM INVALIDO PARA USO");
     }
     }
+    else{#include <stdio.h>
+
+int main() {
+    float consumo;
+    int horarioPico, energiaSolar;
+
+    printf("Digite o consumo atual: ");
+    scanf("%f", &consumo);
+
+    printf("Horario de pico? (1/0): ");
+    scanf("%d", &horarioPico);
+
+    printf("Possui energia solar? (1/0): ");
+    scanf("%d", &energiaSolar);
+
+    if(horarioPico == 1){
+        if (consumo > 300 && energiaSolar == 0){
+            printf("Alerta de alto consumo");
+        }
+        else{
+            printf("Consumo controlado");
+        }
+    }
+    
+    else if(horarioPico == 0){
+        if (consumo > 500){
+            printf("Alerta de consumo");
+        }
+        else{
+            printf("Consumo normal");
+        }
+    }
     else{
+        printf("Não existe");
+    }
+
+    return 0;
+}
+
+
         printf("Cupom invalido");
     }
 
     return 0;
 }
+
+exerc 8 
+
+#include <stdio.h>
+
+int main() {
+    float consumo;
+    int horarioPico, energiaSolar;
+
+    printf("Digite o consumo atual: ");
+    scanf("%f", &consumo);
+
+    printf("Horario de pico? (1/0): ");
+    scanf("%d", &horarioPico);
+
+    printf("Possui energia solar? (1/0): ");
+    scanf("%d", &energiaSolar);
+
+    if(horarioPico == 1){
+        if (consumo > 300 && energiaSolar == 0){
+            printf("Alerta de alto consumo");
+        }
+        else{
+            printf("Consumo controlado");
+        }
+    }
+    
+    else if(horarioPico == 0){
+        if (consumo > 500){
+            printf("Alerta de consumo");
+        }
+        else{
+            printf("Consumo normal");
+        }
+    }
+    else{
+        printf("Não existe");
+    }
+
+    return 0;
+}
+
 
 
