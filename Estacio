@@ -1,124 +1,4 @@
-Lista 1
 
-    if(idade >= 18 ){
-        printf("Liberado entrar");
-    }
-    else if (idade>= 16){
-    
-        printf("entrar com liberação");
-    }
-    
-    else if (idade>= 10){
-    
-        printf("Proibido entrar");
-    }
-    
-    
-else{
-    printf ("não entra");
-}
-    return 0;
-}
-
-Lista 2
-
-#include <stdio.h>
-int main (){
-    
-    float valor;
-    
-printf("Qual o valor da compra");
-scanf("%f",&valor);
-
-if(valor>100){
-        printf("Possui desconto");
-}
-else {
-    printf("Não possui desconto");
-}
-return 0 ;
-
-
-}
-
-Lista 3
-
-
-#include <stdio.h>
-
-int main() {
-    
-    int nota;
-
-    printf("Digite a sua nota ");
-    scanf("%d", &nota);
-    
-    if(nota >= 7 ){
-        printf("Aprovado");
-    }#include <stdio.h>
-
-int main() {
-    int codigoValido, jaUsouCupom;
-    float valorCompra;
-
-    printf("Codigo valido? (1/0): ");
-    scanf("%d", &codigoValido);
-
-    printf("Digite o valor da compra: ");
-    scanf("%f", &valorCompra);
-
-    printf("Ja usou cupom? (1/0): ");
-    scanf("%d", &jaUsouCupom);
-
-    if(codigoValido == 1){
-        if(jaUsouCupom == 0 && valorCompra >= 100){
-            printf("Desconto Aplicado");
-        }
-        else{
-            printf("CUPOM INVALIDO PARA USO");
-    }
-    }
-    else{
-        printf("Cupom invalido");
-    }
-
-    return 0;
-}
-    
-   else if(nota >= 5 ){
-        printf("Recuperação");
-    }
-    else{
-        printf("Reprovado");
-    }
-
-    return 0;
-}
-
-Lista 4 
-
-#include <stdio.h>
-
-int main() {
-    
-    int categorias;
-
-    printf("Digite a sua nota ");
-    scanf("%d", &categorias);
-    
-    if(categorias <= 10 ){
-        printf("Conceito A");
-    }
-    
-   else if(categorias <= 20 ){
-        printf("Conceito B");
-    }
-    
-    else if(categorias <= 30 ){
-        printf("Conceito C");
-    }
-    return 0;
-    }
 exer 3 
 #include <stdio.h>
 
@@ -230,7 +110,43 @@ int main() {
     printf("Dispositivo conhecido? (1/0): ");
     scanf("%d", &dispositivoConhecido);
 
-    printf("Tentativa suspeita? (1/0): ");
+    printf("Tentativa suspeita? (1/0): ");int main() {
+    int biometria, senha, modoSeguro;
+
+    printf("Digite a biometria (1/0): ");
+    scanf("%d", &biometria);
+
+    printf("Digite a senha (1/0): ");
+    scanf("%d", &senha);
+
+    printf("Digite o modo seguro (1/0): ");
+    scanf("%d", &modoSeguro);
+
+
+    if (modoSeguro == 1) { 
+        if (senha == 1) { 
+        printf("Desbloqueado"); 
+        } 
+    else { 
+            printf("Bloqueado"); 
+        } 
+    }     return 0;
+}
+    else if (modoSeguro == 0) { 
+        if (senha == 1 || biometria == 1) { 
+          printf("Desbloqueado"); 
+        } 
+        else { 
+          printf("Bloqueado"); 
+        } 
+    } 
+    else { 
+        printf("Bloqueado"); 
+    }
+
+    return 0;
+}
+
     scanf("%d", &tentativaSuspeita);
 
         if (loginOk == 1){
@@ -384,9 +300,40 @@ int main() {
     return 0;
 }
 
-exerc 8 
+exerc 8 #include <stdio.h>
 
-#include <stdio.h>
+int main() {
+    int pessoas, reserva, horario;
+
+    printf("Digite o numero de pessoas: ");
+    scanf("%d", &pessoas);
+
+    printf("Tem reserva? (1/0): ");
+    scanf("%d", &reserva);
+
+    printf("Digite o horario atual: ");
+    scanf("%d", &horario);
+
+    if (reserva == 1){
+        printf("Atendimento imediato");
+    }
+    
+    else if((horario >= 12 && horario <= 14) || (horario >= 19 && horario <= 21)){
+        if(pessoas <= 4){
+            printf("espera curta");
+        }
+        else{
+            printf("Espera longa");
+        }
+    }
+    else{
+        printf ("Atendimento imadiato");
+}
+    return 0;
+}
+
+
+exerc 9 #include <stdio.h>
 
 int main() {
     float consumo;
@@ -420,10 +367,40 @@ int main() {
     }
     else{
         printf("Não existe");
-    }
+    }#include <stdio.h>
+exerc 10
+int main() {
+    int pessoas, reserva, horario;
 
+    printf("Digite o numero de pessoas: ");
+    scanf("%d", &pessoas);
+
+    printf("Tem reserva? (1/0): ");
+    scanf("%d", &reserva);
+
+    printf("Digite o horario atual: ");
+    scanf("%d", &horario);
+
+    if (reserva == 1){
+        printf("Atendimento imediato");
+    }
+    
+    else if((horario >= 12 && horario <= 14) || (horario >= 19 && horario <= 21)){
+        if(pessoas <= 4){
+            printf("espera curta");
+        }
+        else{
+            printf("Espera longa");
+        }
+    }
+    else{
+        printf ("Atendimento imadiato");
+}
     return 0;
 }
+exerc 11
+
+
 
 
 
