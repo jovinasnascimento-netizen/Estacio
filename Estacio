@@ -191,14 +191,13 @@ int main() {
     return 0;
 }
 exerc 6
-
 #include <stdio.h>
-
 int main() {
     int loginOk, dispositivoConhecido, tentativaSuspeita;
 
     printf("Login correto? (1/0): ");
     scanf("%d", &loginOk);
+
 
     printf("Dispositivo conhecido? (1/0): ");
     scanf("%d", &dispositivoConhecido);
@@ -206,7 +205,7 @@ int main() {
     printf("Tentativa suspeita? (1/0): ");
     scanf("%d", &tentativaSuspeita);
 
-    if (loginOk == 1)
+        if (loginOk == 1){
         if (dispositivoConhecido == 1 && tentativaSuspeita == 0){
             printf("Acesso Liberado");
         }
@@ -222,5 +221,6 @@ int main() {
     return 0;
 }
 
-    return 0;
-}
+  
+
+
