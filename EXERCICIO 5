@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int idade, genero, acompanhado;
+
+    scanf("%d", &idade);
+    scanf("%d", &genero);
+    scanf("%d", &acompanhado);
+
+    if (idade < 18) {
+        if (genero == 3) {
+            printf("TERROR NAO RECOMENDADO\n");
+        } else {
+            printf("RECOMENDAR NORMALMENTE\n");
+        }
+    } else { // idade >= 18
+        if (genero == 3 && acompanhado == 1) {
+            printf("RECOMENDAR COM AVISO\n");
+        } else {
+            printf("RECOMENDAR NORMALMENTE\n");
+        }
+    return 0;
+}
