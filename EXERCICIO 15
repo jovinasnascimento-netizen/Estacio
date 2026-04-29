@@ -1,0 +1,23 @@
+int main(){
+        int num ;
+        int total = 0;
+        int posi = 0;
+        
+            
+            printf("Digite os números ");
+            scanf("%d", &num);
+            
+            while (num != 0){
+                total++;
+            if(num > 0){
+               posi++; 
+            }
+            
+            printf("Digite os números ");
+            scanf("%d", &num);
+        }
+        
+        printf("O total de números são %d", total);
+        printf("\nO total de números positivos são %d", posi);
+        return 0;
+    }
