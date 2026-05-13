@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+int numeros [10];
+int pos , posição;
+int valor, encontrado = 0;
+for(pos = 0; pos < 10; pos++) {
+printf("Digite o %d° valor: ", pos+1);
+scanf("%d", &numeros [pos]);
+}
+printf("Digite o valor a buscar: ");
+scanf("%d", &valor);
+for(pos = 0; pos < 10; pos++) {
+if(valor == numeros [pos]) {
+encontrado = 1;
+} else {
+encontrado = 0;
+}
+}
+if(encontrado) {
+printf("Valor econtrado!");
+} else {
+
+printf("Valor não encontrado!");
+
+}
+return 0;
+}
