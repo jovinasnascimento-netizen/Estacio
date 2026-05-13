@@ -1,0 +1,12 @@
+#include <stdio.h>
+  int main(){
+   int numeros [2];
+   int pos , soma= 0;
+   for (pos= 0;pos <2; pos++){
+       printf("Digite o %d° numero:", pos+1);
+       scanf("%d",&numeros[pos]);
+       soma+= numeros[pos];
+   }
+   printf("A soma dos numeros digitados é %d",soma);
+}
+
