@@ -1,12 +1,17 @@
 #include <stdio.h>
   int main(){
-   int numeros [2];
-   int pos , soma= 0;
-   for (pos= 0;pos <2; pos++){
+   int numeros [10];
+   int pos ,posição,maior=0;
+   for (pos= 0;pos <10; pos++){
        printf("Digite o %d° numero:", pos+1);
        scanf("%d",&numeros[pos]);
-       soma+= numeros[pos];
+      
+      if(numeros[pos]> maior){
+          maior= numeros[pos];
+          posição = pos+1;
+          
+      }
    }
-   printf("A soma dos numeros digitados é %d",soma);
+   printf("O maior numero digitado é %d na posição %d", maior , posição);
 }
 
