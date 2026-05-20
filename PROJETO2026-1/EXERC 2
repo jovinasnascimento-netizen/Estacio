@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main() {
+    float vendas[10];
+    int vendaEspecial;
+    int i;
+
+    float totalVendido = 0;
+    int destaque = 0;
+    int comum = 0;
+
+    // Implemente aqui:
+    // 1. Ler as 10 vendas e armazenar no vetor vendas
+     for (int pos=0 ; pos<10;pos++){
+        printf("Digite o valor %d° venda:",pos+1);
+        scanf("%f",&vendas[pos]);
+    }
+    // 2. Ler se cada venda foi especial
+    for (int pos=0;pos < 10; pos++){
+        printf("Digite se a %d foi especial 1 para SIm e 0 pra NÂO:",pos+1);
+        scanf("%d",&vendaEspecial);
+        if(vendas[pos]>=100 || vendaEspecial == 1 ){
+            printf ("VENDA COM DESTAQUE\n");
+            destaque++;
+        }else{
+            printf("VENDA COMUM\n");
+            comum++;
+            
+            totalVendido=totalVendido + vendas[pos];
+        
+        
+        printf("Total Vendido:%f\n",totalVendido);
+        printf("Total de Vendas com Destaque:%d",destaque);
+        printf("Total de vendas Comuns:%d",comum);
+        
+    }
+    return 0;
+}}
