@@ -1,0 +1,41 @@
+Início
+
+Declarar vetor idades[10]
+Declarar autorizacao
+Declarar liberados = 0
+Declarar negados = 0
+Declarar maiorIdade = 0
+Declarar somaIdades = 0
+Declarar media
+
+Para i de 0 até 9 faça
+
+    Ler idade
+    Ler autorizacao
+
+    idades[i] = idade
+
+    somaIdades = somaIdades + idade
+
+    Se idade > maiorIdade então
+        maiorIdade = idade
+    fimse
+
+    Se idade >= 18 OU autorizacao == 1 então
+        Mostrar "ENTRADA LIBERADA"
+        liberados++
+    Senão
+        Mostrar "ENTRADA NEGADA"
+        negados++
+    fimse
+
+FimPara
+
+media = somaIdades / 10
+
+Mostrar liberados
+Mostrar negados
+Mostrar maiorIdade
+Mostrar media
+
+Fim
