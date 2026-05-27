@@ -1,0 +1,61 @@
+Participante 1
+Digite a idade: 1
+Possui autorizacao? (1 = sim / 0 = nao): 1
+ENTRADA LIBERADA
+
+Participante 2
+Digite a idade: 1
+Possui autorizacao? (1 = sim / 0 = nao): 1
+ENTRADA LIBERADA
+
+Participante 3
+Digite a idade: 11
+Possui autorizacao? (1 = sim / 0 = nao): 1
+ENTRADA LIBERADA
+
+Participante 4
+Digite a idade: 8
+Possui autorizacao? (1 = sim / 0 = nao): 0
+ENTRADA NEGADA
+
+Participante 5
+Digite a idade: 10
+Possui autorizacao? (1 = sim / 0 = nao): 0
+ENTRADA NEGADA
+
+Participante 6
+Digite a idade: 77
+Possui autorizacao? (1 = sim / 0 = nao): 1
+ENTRADA LIBERADA
+
+Participante 7
+Digite a idade: 1
+Possui autorizacao? (1 = sim / 0 = nao): 12
+ENTRADA NEGADA
+
+Participante 8
+Digite a idade: 12
+Possui autorizacao? (1 = sim / 0 = nao): 11
+ENTRADA NEGADA
+
+Participante 9
+Digite a idade: 
+11
+Possui autorizacao? (1 = sim / 0 = nao): 
+1
+ENTRADA LIBERADA
+
+Participante 10
+Digite a idade: 1
+Possui autorizacao? (1 = sim / 0 = nao): 1
+ENTRADA LIBERADA
+
+
+===== RESULTADO FINAL =====
+Entradas liberadas: 6
+Entradas negadas: 4
+Maior idade registrada: 77
+Media das idades: 13.30
+
+
+=== Code Execution Successful ===

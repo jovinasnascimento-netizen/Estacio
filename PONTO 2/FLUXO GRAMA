@@ -1,0 +1,48 @@
+FLUXO GRAMA =
+[ INÍCIO ]
+           │
+           ▼
+[ Inicializar Variáveis ]
+[ liberados=0, negados=0, etc. ]
+           │
+           ▼
+     ( i = 0 ; i < 10 ) ◄──────────────────────────────────────┐
+           │                                                   │
+         [SIM]                                                 │
+           │                                                   │
+           ▼                                                   │
+[ Ler: idade, autorizacao ]                                    │
+[ idades[i] = idade ]                                          │
+[ somaIdades += idade ]                                        │
+           │                                                   │
+           ▼                                                   │
+ ( idade > maiorIdade? ) ──[SIM]──► [ maiorIdade = idade ]     │
+           │                                 │                 │
+         [NÃO] ◄─────────────────────────────┘                 │
+           │                                                   │
+           ▼                                                   │
+ ( idade >= 18 OU autorizacao == 1? )                          │
+           │                      │                            │
+         [SIM]                  [NÃO]                          │
+           │                      │                            │
+           ▼                      ▼                            │
+  [ Print: LIBERADA ]    [ Print: NEGADA ]                     │
+  [ liberados++ ]        [ negados++ ]                         │
+           │                      │                            │
+           └──────────┬───────────┘                            │
+                      │                                        │
+                      ▼                                        │
+                [ i = i + 1 ] ─────────────────────────────────┘
+                      │
+                    [NÃO] (Fim do loop)
+                      │
+                      ▼
+        [ media = somaIdades / 10.0 ]
+                      │
+                      ▼
+        [ Print: Resultados Finais ]
+                      │
+                      ▼
+                  [ FIM ]
+
+
