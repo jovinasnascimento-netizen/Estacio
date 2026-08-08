@@ -35,3 +35,30 @@ int main() {
 
     return 0;
 }
+"""nome = input("Informe teu nome : ")
+print(type(nome))
+nota1 = float(input("Digite a 1° nota:"))
+nota2 = float(input("Digite a 2° nota:"))
+media = (nota1+nota2) / 2
+
+print(f"Sua média é {media}")
+
+if media >= 7:
+    print("Aprovado")
+else:
+    print("Reprovado")
+
+num = int(input("Digite o 1° número: "))
+
+
+if num % 2 == 0:
+ print("Número é par")
+
+else:
+ print ("Número é impar")
+"""
+salario=float(input("Digite o valor\n"))
+porcent=float(input("Digite a porcentagem por favor\n"))
+
+aumento= salario+(salario+porcent/100)
+print("Com o aumento ficou R${:.2f}".format(aumento))
