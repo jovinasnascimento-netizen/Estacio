@@ -1,0 +1,21 @@
+Questão 1
+
+vendas  = [1200.0, 850.0, 2300.0, 450.0, 1800.0, 3200.0, 950.0]
+total_itens = len(vendas)
+total_vendas = sum(vendas)
+media = total_vendas / total_itens
+maior = max(vendas)
+menor = min(vendas)
+acima_media = []
+
+for venda in vendas:
+    if venda > media:
+        acima_media.append(venda)
+
+print(f"Vendas feitas:", vendas)
+print(f"O total de vendas é :",total_vendas)
+print(f"A maior venda é: ", maior)
+print(f"A menor venda é: ", menor)
+print(f"O total de itens é: ", total_itens)
+print(f"Vendas acima da média é: ", acima_media)
+print(f"A média é:, {media:.2f}")
